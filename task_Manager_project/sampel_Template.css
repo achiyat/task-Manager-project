@@ -1,0 +1,88 @@
+body {
+  width: 1536px;
+  height: 710px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+  background-color: black;
+  height: 38px;
+}
+
+header div {
+  margin-top: 10px;
+}
+
+header a {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+main {
+  width: 1536px;
+  height: 660px;
+}
+
+nav {
+  width: 955px;
+  height: 550px;
+  margin-left: 280px;
+  overflow-y: scroll;
+}
+
+table,
+td,
+tr {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  table-layout: fixed;
+  width: 100px;
+}
+
+td {
+  width: 100px;
+  height: 50px;
+}
+
+.td1 {
+  width: 100px;
+  height: 50px;
+  overflow-x: scroll;
+}
+
+p {
+  margin: 5px 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  margin-left: 435px;
+}
+
+h3 {
+  margin-left: 705px;
+}
+
+select {
+  background: rgb(131, 131, 223);
+  border-radius: 8%;
+  border-color: none;
+  width: 90px;
+}

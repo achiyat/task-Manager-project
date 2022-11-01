@@ -1,0 +1,7 @@
+﻿  addsample.c
+C:\Users\achiy\source\repos\task_Manager_project\task_Manager_project\addsample.c(15,3): warning C4013: 'LogError' undefined; assuming extern returning int
+C:\Users\achiy\source\repos\task_Manager_project\task_Manager_project\addsample.c(24,17): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\achiy\source\repos\task_Manager_project\task_Manager_project\addsample.c(32,39): warning C4244: '+=': conversion from 'SIZE_T' to 'unsigned long', possible loss of data
+C:\Users\achiy\source\repos\task_Manager_project\task_Manager_project\addsample.c(45,2): warning C4013: 'LogEvent' undefined; assuming extern returning int
+C:\Users\achiy\source\repos\task_Manager_project\task_Manager_project\addsample.c(46,2): warning C4013: 'buildS' undefined; assuming extern returning int
+  task_Manager_project.vcxproj -> C:\Users\achiy\source\repos\task_Manager_project\x64\Debug\task_Manager_project.exe

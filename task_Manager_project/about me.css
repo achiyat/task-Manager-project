@@ -1,0 +1,117 @@
+body {
+  width: 1536px;
+  height: 710px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+  background-color: black;
+  height: 38px;
+}
+
+header div {
+  margin-top: 10px;
+}
+
+header a {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+main {
+  width: 1536px;
+  height: 683px;
+  background-color: aqua;
+}
+
+.main-absolute {
+  position: absolute;
+  top: 38px;
+}
+
+.conteiner-absolute {
+  position: absolute;
+  top: -28px;
+  left: -65px;
+}
+
+.img {
+  position: absolute;
+  top: 28px;
+  left: 610px;
+  width: 430px;
+  height: 445px;
+}
+
+.div-nav {
+  position: absolute;
+  top: 273px;
+  left: 690px;
+  height: 100px;
+  width: 275px;
+  z-index: 1;
+  color: aliceblue;
+}
+
+.h1-div-nav {
+  margin-right: 90px;
+}
+
+.div-absolute {
+  position: absolute;
+  top: 373px;
+  left: 610px;
+  height: 338px;
+  width: 430px;
+  background-color: white;
+}
+
+.text {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 0%;
+}
+
+.p-div-absolute {
+  height: 5px;
+  width: 90px;
+}
+
+.nav-flex-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 190px;
+  margin-right: 100px;
+}
+
+.nav-dir {
+  margin-left: 30%;
+}
+
+.icon {
+  width: 30px;
+  border-radius: 100%;
+  margin: 10px 20px;
+}
+
+.div-img {
+  margin-right: 20px;
+  width: 370px;
+  margin-top: 10px;
+}

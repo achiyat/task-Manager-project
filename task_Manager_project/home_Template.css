@@ -1,0 +1,105 @@
+body {
+  width: 1535px;
+  height: 710px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  background-color: black;
+  height: 38px;
+}
+
+header div {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: gray;
+}
+
+header a {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  /* margin-left: 20px; */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+main {
+  margin-left: 100px;
+  width: 1300px;
+  height: 675px;
+}
+
+.main-margin {
+  margin-left: 2%;
+  margin-right: 20%;
+}
+
+.flex-conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav {
+  margin-left: 20px;
+}
+
+h1 {
+  margin-left: 180px;
+}
+.div-overflow-left {
+  width: 600px;
+  height: 560px;
+  overflow-y: scroll;
+}
+
+.div-overflow-right {
+  width: 700px;
+  height: 560px;
+  margin-left: 50px;
+  overflow-y: scroll;
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100px;
+}
+
+.td-table1 {
+  width: 120px;
+}
+
+td {
+  width: 100px;
+  height: 50px;
+  overflow-y: hidden;
+}
+
+.td1 {
+  width: 535px;
+}
